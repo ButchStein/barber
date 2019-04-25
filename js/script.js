@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-    $('#lightSlider').lightSlider({
+    var slider = $('#lightSlider').lightSlider({
         item: 1,
     });
 

@@ -269,6 +269,7 @@ html, body {
   background-color: #000;
   text-transform: uppercase;
   color: #fff;
+  cursor: pointer;
   text-align: center;
   transition: background-color .3s;
 }
