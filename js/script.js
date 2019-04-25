@@ -3,4 +3,12 @@ jQuery(document).ready(function ($) {
         item: 1,
     });
 
+    $('#prevSl').click(function () {
+        slider.goToPrevSlide();
+    });
+    $('#nextSl').click(function () {
+        slider.goToNextSlide();
+    });
+
+
 });
